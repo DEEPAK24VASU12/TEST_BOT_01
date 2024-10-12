@@ -17,7 +17,6 @@ def generate_text(prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a well-read journalist aware of India's recent performance in the 2024 Paralympics."},
             {"role": "user", "content": prompt}
         ],
         max_tokens=200,  # Adjust token length as needed
@@ -34,11 +33,11 @@ def generate_text(prompt):
     return response_text
 
 # Streamlit UI setup
-st.title("My first bot")
-st.write("anything ")
+st.title("Idhu Dhan Da First Bottuu")
+st.write(" Yenna Da venum, Sunniiiiii")
 
 # User input
-user_input = st.text_input("You:", placeholder="Type your question here...")
+user_input = st.text_input("You:", placeholder="Yedaachum type panni thola da Pundaaaa...")
 
 # If there's a user input, get the response from the chatbot
 if user_input:
