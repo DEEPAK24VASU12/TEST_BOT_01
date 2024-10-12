@@ -33,7 +33,7 @@ def generate_text(prompt):
     return response_text
 
 # Streamlit UI setup
-st.title("Idhu Dhan Da First Bottuu")
+st.title("This is my First Chat Bottuu da Lawadegabbaalsssss........")
 st.write(" Yenna Da venum, Sunniiiiii")
 
 # User input
