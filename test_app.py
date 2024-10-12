@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key
-openai.api_key = st.secrets['your-api-key']
+openai.api_key = st.secrets["enter_key"]
 
 # Function to generate text with continuous stream
 def generate_text(prompt):
